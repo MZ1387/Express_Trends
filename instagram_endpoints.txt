@@ -1,0 +1,46 @@
+// USERS //
+Get user id
+https://www.instagram.com/mz1387/?__a=1
+
+Get information about the owner of the access_token.
+https://api.instagram.com/v1/users/self/?access_token=ACCESS_TOKEN
+
+Get information about a user.
+https://api.instagram.com/v1/users/30727244/?access_token=ACCESS_TOKEN
+
+Get the most recent media published by the owner of the access_token
+https://api.instagram.com/v1/users/self/media/recent/?access_token=ACCESS_TOKEN
+
+Get the most recent media published by a user.
+https://api.instagram.com/v1/users/30727244/media/recent/?access_token=ACCESS_TOKEN
+
+Get the list of recent media liked by the owner of the access_token.
+// see what the media you liked hashtags photos with and how many likes correlate to those tags and their top rated tags display
+https://api.instagram.com/v1/users/self/media/liked?access_token=ACCESS_TOKEN
+
+Get a list of users matching the query.
+https://api.instagram.com/v1/users/search?q=mz&access_token=ACCESS_TOKEN
+
+// TAGS //
+Get information about a tag object.
+single tag search.
+https://api.instagram.com/v1/tags/1387records?access_token=ACCESS_TOKEN
+
+Get a list of recently tagged media.
+// can show if the top media_count suggestions fit the style or intent of other users.
+https://api.instagram.com/v1/tags/1387records/media/recent?access_token=ACCESS_TOKEN
+
+Search for tags by name.
+// broad tags can be searched and top media_count is suggested for a post.
+https://api.instagram.com/v1/tags/search?q=cook&access_token=ACCESS_TOKEN
+
+
+// LOCATION //
+Get information about a location.
+https://api.instagram.com/v1/locations/574229361?access_token=ACCESS_TOKEN
+
+Get a list of recent media objects from a given location. //
+https://api.instagram.com/v1/locations/227956930916902/media/recent?access_token=ACCESS_TOKEN
+
+Search for a location by geographic coordinate.
+https://api.instagram.com/v1/locations/search?lat=34.0928&lng=118.3287&access_token=ACCESS_TOKEN
